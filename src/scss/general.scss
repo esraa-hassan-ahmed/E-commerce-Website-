@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Raleway-Bold';
+	src: url('../../dist/fonts/Fonts/Raleway-Bold.ttf');
+}
+@font-face {
+    font-family: 'KaushanScript-Regular';
+	src: url('../../dist/fonts/Fonts/KaushanScript-Regular.ttf');
+}
+@font-face {
+    font-family: 'aparajb';
+	src: url('../../dist/fonts/Fonts/aparajb.ttf');
+}
+@font-face {
+	font-family: 'Exodus-PersonalUse-Stencil';
+	src: url('../../dist/fonts/Fonts/Exodus-PersonalUse-Stencil.eot');
+}
+@font-face {
+    font-family: 'Lato-Regular';
+	src: url('../../dist/fonts/Fonts/Lato-Regular.ttf');
+}
+@font-face {
+    font-family: 'WorkSans-Regular';
+	src: url('../../dist/fonts/Fonts/WorkSans-Regular.ttf');
+}
+.font-style{
+    font-family: 'Lato-Regular';
+    color: $light;
+}
+.img-style{
+    background-size: cover;
+    background-position: bottom;
+}
+.BG-style{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.li-Bullet{
+    color:$success;
+    content:"•";
+    padding-right: 10px;
+}
+.span-style{
+    font-family: 'Raleway-Bold';
+    font-size: 12px;
+    color: $primary;
+}
+.sale-style{
+  background-color: $success;
+  padding:3px 25px;
+  left: 0%;
+  top: 8%;
+  opacity: 1;
+  font-size: 14px;
+  text-transform: uppercase;
+}

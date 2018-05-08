@@ -1,0 +1,145 @@
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+.btn{
+    font-family: 'Raleway-Bold';
+    font-size: 14px;
+    background-color: $secondary;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+    text-transform: uppercase;
+}
+h6{
+    font-family: 'KaushanScript-Regular';
+    color: $primary;
+    margin-bottom: 0;
+}
+h2{
+    font-family: 'Raleway-Bold';
+    color: $primary;
+    margin-top: 5px;
+}
+section{
+    padding: 120px 0;
+}
+hr{
+    background-color:$success;
+    width: 35px;
+    height: 1px;
+}
+h1{
+    font-family: 'Raleway-Bold';
+    color: $primary;
+}
+h4{
+    font-family: 'KaushanScript-Regular';
+    color: $primary;
+    margin-bottom: 0;
+}
+header{
+    .container-nav{
+        width: 98%;
+        margin: 0 auto;
+        .row{
+            align-items: center;
+            i{
+                font-size: 22px;
+                color: $primary;
+            }
+        }
+    }
+}
+.div-margin{
+    margin-bottom: 48px;
+    h2{
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    hr{
+        margin-left: 0;
+        margin-top: 6px;
+    }
+}
+.icons-row,.buttons-row{
+  a:first-of-type,button:first-of-type{
+    background-color: $success;
+  }
+  .btn{
+    box-shadow: none;
+  }
+  .btn-lg{
+    border-radius: 0;
+  }
+}
+.icons-row{
+  a{
+    background-color: #f2f2f2;
+    padding: 12px 15px;
+    margin-right: 5px;
+    margin-top: 20px;
+  }
+}
+.buttons-row{
+  a{
+    border:1px solid #e5e5e5;
+    padding:8px 20px  8px 20px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+}
+.align-col{
+  display: flex;
+  align-items:center;
+}
+.light-span{
+  font-size: 14px;
+  font-family: 'Lato-Regular';
+  color: $light;
+}
+.primary-span{
+  color: $primary;
+}
+.success-span{
+  color: $success;
+}
+.bold-label{
+  font-family: 'Raleway-Bold';
+  color: $primary;
+  font-size: 16px;
+}
+.all-content{
+    position: relative;
+    .hover-content{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity:0;
+    }
+    .hover-content:hover{
+        background-color: rgba(237, 237, 237, 0.8);
+        opacity: 1;
+        cursor: pointer;
+    }
+}
+.header-menu{
+    .dropdown{
+        .btn{
+            background-color: transparent;
+            border: none;
+            box-shadow: none;      
+        }
+        .dropdown-toggle::after{
+            display: none;
+        }
+        .dropdown-menu{
+            left: auto;
+            right: 0;
+            a:hover{
+                background-color:#fcca03;
+            }
+        }
+    }
+}

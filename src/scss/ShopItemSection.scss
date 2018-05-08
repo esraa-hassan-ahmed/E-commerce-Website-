@@ -1,0 +1,188 @@
+.item-sec{
+  padding-bottom: 0;
+}
+.blog-sec{
+  .container{
+    .item-sec-row{
+      .col-sm-6{
+        img{
+          width: 100%;
+        }
+        .row{
+          padding-right: 15px;
+          .col-sm-3{
+            padding-right: 0
+          }
+        }
+        h2{
+          font-size: 28px;
+          margin-bottom: 0;
+        }
+        .col-sm-4{
+          i{
+            font-size: 15px;
+            color:#afafaf;
+            margin-top: 14px;
+          }
+        }
+        .col-sm-8{
+          span{
+            @extend .font-style;
+            font-size: 12px;
+          }
+        }
+        p{
+          margin: 20px 0;
+        }
+        .last-p{
+          margin-top: 12px;
+        }
+        .border-par{
+          border-bottom: 1px solid #e5e5e5;
+          padding-bottom: 15px;
+          .bold-span{
+            @extend .span-style;
+            font-size:14px;
+          }
+        }
+        .share-span{
+            @extend .span-style;
+            font-size: 16px;
+        }
+        .price-row{
+          .col-lg-4{
+            span{
+              color: $success;
+              font-size: 30px;
+            }
+          }
+          .col-lg-8{
+            display: flex;
+            align-items:center;
+            span{
+              font-size: 16px;
+              font-weight: bold;
+              padding-top: 8px;
+              text-decoration:line-through;
+              color: $light;
+            }
+          }
+        }
+        .Qty-row{
+          padding-bottom: 28px;
+          border-bottom: 1px solid #e5e5e5;
+          margin-top: 20px;
+          .col-md-6{
+            select{
+              width: 90%;
+              height: 6%;
+              @extend .font-style;
+              font-size: 14px;
+              padding-left: 10px;
+              margin-bottom: 8px;
+            }
+          }
+          .col-md-6{
+            span{
+              font-size: 16px;
+              margin-right: 8px;
+            }
+            input{
+              width: 20%;
+              height: 6%;
+              text-align: center;
+              @extend .font-style;
+              font-size: 14px;
+            }
+          }
+        }
+        .categories-par{
+          margin-bottom: 13px;
+          margin-top: 65px;
+        }
+        .share-icons{
+          display: inline-block;
+          i{
+            width:25px;
+            height: 25px;
+            border: 1px solid #eaeaea;
+            text-align: center;
+            padding: 4px 0;
+            margin-left: 8px;
+          }
+        }
+      }
+    }
+    .justify-row{
+      .nav {
+        border-bottom: none;
+        margin-bottom: 12px;
+      }
+      .nav-tabs{
+        .nav-item{
+          margin-right: 12px;
+          .nav-link{
+            border:1px solid #e5e5e5;
+            padding-left: 25px;
+            padding-right: 25px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+          }
+          .nav-link.active{
+            background-color: #fcca03;           
+          }
+          .nav-link:hover{
+            color: black;
+          }
+        }
+      }
+      .BG-row{
+          padding:30px 35px 25px 35px;
+          background-color: #f2f2f2;
+          ul{
+            padding-left: 16px;
+            li{
+              font-size: 14px;
+              margin-bottom: 5px;
+            }
+        }
+      }
+      .div-margin{
+        .row{
+          .card-deck{
+              .card-body{
+                .row{
+                  margin-bottom: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  /********************************************  Medium Size     *********************************************/
+  @media all and (max-width:1200px){
+    .blog-sec{
+      .container{
+        .item-sec-row{
+          .col-sm-6{
+            .price-row{
+              .col-lg-4{
+                span{
+                  font-size: 25px;
+                }
+              }
+            }
+            .Qty-row{
+              .col-md-6{
+                select{
+                  font-size: 11px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,36 @@
+section{
+    .sec-head{
+        width: 48%;
+        margin: 0 auto;
+        p{
+            @extend .font-style;
+            font-size: 12px;
+        }
+    }
+    .row{
+        .col-sm-4{
+            padding: 0;
+            .row{
+                .col-sm-1{
+                    padding-right: 0;
+                    i{
+                        font-size: 20px;
+                        color: $success;
+                        margin-bottom: 5px;
+                    }
+                }
+                .col-sm-12{
+                    h6{
+                      font-family: 'Raleway-Bold';
+                      font-size: 18px;
+                      margin-bottom: 12px;
+                    }
+                    p{
+                      @extend .font-style;
+                      font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}

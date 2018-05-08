@@ -1,0 +1,30 @@
+section{
+    .container{
+        .row-4{
+            .col-sm-6{
+                img{
+                    width: 100%;
+                }
+                hr{
+                    margin-left: 0;
+                }
+                p{
+                  @extend .font-style;
+                  font-size: 14px;
+               }
+                ul{
+                    list-style: none;
+                    padding-left: 0;
+                    li{
+                       @extend .font-style;
+                       font-size: 12px;
+                       padding-bottom: 10px;
+                    }
+                    li:before{
+                        @extend .li-Bullet;
+                    }
+                }
+            }
+        }
+    }
+}

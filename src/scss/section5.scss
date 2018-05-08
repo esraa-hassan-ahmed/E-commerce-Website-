@@ -1,0 +1,56 @@
+.sec-5{
+    background-image: url(../../dist/Pic/Home/section-bg-19.jpg);
+    @extend .img-style;
+    .row-5{
+        .col-sm-7{
+            padding-right: 0;
+            hr{
+                margin-left: 0;
+            }
+            p{
+                @extend .font-style;
+                font-size: 14px;
+            }
+            .row{
+                .col-sm-1{
+                    padding: 0;
+                    display: flex;
+                    justify-content: center;
+                    .img-content{
+                        height: 25px;
+                        width: 27px;
+                        border: 1px solid #303233;
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    .dif-img{
+                        background-color: $success;
+                        border: none;
+                    }
+                }
+                .col-sm-11{
+                    display: flex;
+                    align-items: center;
+                    p{
+                       margin: 0;
+                       a{
+                           text-decoration: none;
+                           text-transform: uppercase;
+                       }
+                    }
+                    .dif-par{
+                        font-weight: bold;
+                        color: #303233;
+                    }
+                    .collapse-par{
+                        @extend .font-style;
+                        font-size: 13px;
+                        padding: 0.8rem 0.6rem 0.6rem 0;
+                    }
+                }
+            }
+        }
+    }
+}

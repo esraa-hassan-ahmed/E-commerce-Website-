@@ -1,0 +1,116 @@
+.sec-3{
+    padding-bottom: 30px;
+    .content-width{
+        width: 45%;
+        margin: 0 auto;
+        p{
+              @extend .font-style;
+              font-size: 14px;
+        }
+    }
+    .row-3{
+        margin: 0;
+        .col-sm-3{
+            padding: 0; 
+            .content-style{
+              img:first-of-type{
+                @extend .img-style;
+                width: 100%;
+              }
+              p{
+                  margin-bottom: 0;
+                  @extend .font-style;
+                  font-size: 14px;
+              }
+              h4{
+                  font-family: 'Raleway-Bold';
+                  font-size: 20px;
+              }
+              i{
+                font-size: 25px;
+              }
+              i:last-of-type{
+                  padding-left: 30px;
+              }
+            }             
+        }           
+    }
+    .last-part{
+        padding: 35px 0;
+        background-color: $success;
+        .last-row{
+            width: 65%;
+            margin: 0 auto;
+            .col-sm-3{
+                p{
+                    font-family: 'Raleway-Bold';
+                    font-size: 12px;
+                    margin: 0;
+                    text-transform: uppercase;
+                }
+                h7{
+                    font-family: 'Raleway-Bold';
+                    font-size: 30px;
+                }
+            }
+            .BG{
+              width: 100%;
+              @extend .BG-style;
+            }
+            .BG1{
+                background-image: url(../../dist/Pic/Home/Forma%201.png);
+            }
+            .BG2{
+               background-image: url(../../dist/Pic/Home/icon.png);
+            }
+            .BG3{
+               background-image: url(../../dist/Pic/Home/Forma%202.png);
+            }
+            .BG4{
+               background-image: url(../../dist/Pic/Home/Forma%203.png);
+            }
+        }
+    }
+}
+/********************************************  Medium Size     *********************************************/
+@media all and (max-width:1200px){
+  .sec-3{
+    .row-3{
+      .col-sm-3{
+        .content-style{
+          p{
+              font-size: 10px;
+          }
+          h4{
+              font-size: 15px;
+          }
+          i{
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+/********************************************  Small Size     *********************************************/
+@media all and (max-width:992px){
+  .sec-3{
+    .row-3{
+      .col-sm-3{
+        .content-style{
+          p{
+              font-size: 8px;
+          }
+          h4{
+              font-size: 13px;
+          }
+          i{
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+}
+
+

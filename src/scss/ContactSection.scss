@@ -1,0 +1,27 @@
+.sec1-less-padding{
+    padding-bottom: 65px;
+}
+.less-padding{
+    padding: 0 0 65px 0;
+    .container{
+        .contact-div{
+
+            h2{
+                font-size: 30px;
+            }
+            hr{
+                margin: 1rem auto;
+            }
+            p{
+                margin-bottom: 40px;
+            }
+            form{
+              width: 65%;
+              margin: 0 auto;
+            }
+        }
+    }
+}
+.sec3-less-padding{
+    padding: 0;
+}

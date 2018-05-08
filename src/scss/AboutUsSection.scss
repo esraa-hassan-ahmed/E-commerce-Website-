@@ -1,0 +1,126 @@
+.about-sec{
+  padding: 0;
+}
+.about-sec-hr{
+  hr{
+    background-color: #676969;
+  }
+  .carousel-control-prev,.carousel-control-next{
+    span{
+      padding: 6px 8px;
+      border: 1px solid $light;
+    }
+    span:hover{
+      background-color: $success;
+    }
+    i{
+      color: $primary;
+      font-size: 16px;
+    }
+  }
+  .carousel-control-prev{
+    left: -14%;
+  }
+  .carousel-control-next{
+    right: -14%;
+  }
+}
+section{
+ .container{
+   .card-deck{
+     .card{
+       .hover-data{
+         padding: 0 25px;
+          p{
+            font-size: 12px;
+            @extend .font-style;
+          }
+          a:nth-of-type(2){
+            padding: 0 20px;
+          }
+       }
+       .card-body{
+         .aboutHead{
+           margin-bottom: 5px;
+         }
+         .aboutPar{
+           font-size: 14px;
+         }
+       }
+     }
+   }
+ }
+}
+.about-last-sec{
+   .container{
+     .row-4 {
+       .col-sm-6{
+         p{
+           font-size: 13px;
+         }
+         .big-div{
+           width: 100&;
+           .text-div{
+             margin-bottom: 8px;
+             span{
+               @extend .span-style;
+               text-transform: uppercase;
+             }
+           }
+           .Back-div{
+             background-color: #eaeaea;
+             height: 1%;
+             .Front-div{
+               background-color: $success;
+               height: 100%;
+             }
+           }
+         }
+       }
+     }
+   }
+}
+/********************************************  Small Size     *********************************************/
+@media all and (max-width:850px){
+  section{
+    .container{
+      .card-deck{
+        .card{
+          .hover-data{
+            padding: 0 15px;
+             p{
+               font-size: 7px;
+             }
+             a:nth-of-type(2){
+               padding: 0 10px;
+             }
+             a{
+                i{
+                  font-size: 12px;
+                }
+             }
+          }
+        }
+      }
+    }
+  }
+}
+@media all and (max-width:575px){
+  section{
+    .container{
+      .card-deck{
+        .card{
+          .hover-data{
+            padding: 0 25px;
+             p{
+               font-size: 12px;
+             }
+             a:nth-of-type(2){
+               padding: 0 20px;
+             }
+          }
+        }
+      }
+    }
+  }
+}

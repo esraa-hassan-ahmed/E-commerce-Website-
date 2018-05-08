@@ -1,0 +1,25 @@
+.sec-2{
+    background-image: url(../../dist/Pic/Home/section-bg-4.jpg);
+    padding-bottom: 0;
+    .row-2{
+        .col-sm-6{
+            hr{
+                margin-left: 0;
+            }
+            p{
+              @extend .font-style;
+              font-size: 14px;
+            }
+            img{
+                width: 100%;
+            }
+        }
+        .col-sm-6:first-of-type{
+          padding-bottom:120px;
+        }
+        .col-sm-6:last-of-type{
+          display: flex;
+          align-items: flex-end;
+        }
+    }
+}

@@ -1,0 +1,71 @@
+.blog-sec{
+    .container{
+        .card-deck {
+            .card {
+                .card-body{
+                  .date-col{
+                    margin-top: 15px;
+                    .bold-span{
+                        @extend .span-style;
+                        margin-right: 20px;
+                    }
+                  }
+                    i{
+                        padding-right: 20px;
+                        color: #bcbcbc;
+                        font-size: 13px;
+                    }
+                    i:hover{
+                         color: $primary;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .row-border{
+            border-top:1px solid #eaeaea;
+            border-bottom:1px solid #eaeaea;
+            padding: 15px 0 0 0;
+        }
+        .row-single, .row{
+            .img-cols{
+                padding: 0 12px;
+                img{
+                    width: 100%;
+                }
+            }
+            .less-margin{
+                margin-bottom: 20px;
+            }
+            .col-left{
+              display: flex;
+              justify-content: left;
+              padding-left: 0;
+              .last-nav{
+                li{
+                  margin-left: 0;
+                }
+              }
+            }
+            .col-right{
+              display: flex;
+              justify-content:flex-end;
+              .last-nav{
+                li{
+                  margin-right: 0;
+                  i{
+                    padding-right: 0;
+                  }
+                }
+              }
+            }
+            .col-middle{
+              display: flex;
+              justify-content: center;
+              img{
+                margin-top: 8px;
+              }
+            }
+        }
+    }
+}

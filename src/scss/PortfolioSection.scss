@@ -1,0 +1,95 @@
+section{
+    .container{
+        .nav-row{
+            justify-content: center;
+        }
+        ul{
+            li{
+                font-size: 18px;
+                font-family: 'Raleway-Bold';
+                .nav-link{
+                    padding-left: 0;
+                    padding-right: 40px;
+                }
+                a:hover{
+                    color:$success;
+                }
+                a:hover + hr{
+                    opacity: 1;
+                }
+                hr{
+                    margin-top: 0;
+                    width: 12px;
+                    margin-left: 0;
+                    opacity: 0;
+                }
+            }
+        }
+        .row{
+            .card-col{
+                padding: 0 15px;
+                .card-deck{
+                    .card{
+                      .card-content{
+                        i{
+                          font-size: 25px;
+                        }
+                        i:first-of-type{
+                            margin-right: 45px;
+                        }
+                      }                        
+                    }
+                    .head-margin{
+                        h5{
+                            margin-bottom: 5px;
+                            font-size: 15px;
+                        }
+                    }
+                  }
+                }
+            }
+            .row-center{
+              justify-content: center;
+            }
+        }        
+    }
+/********************************************  Small Size     *********************************************/
+@media all and (max-width:786px){
+  section{
+    .container{
+      .row{
+        .card-col{
+          .card-deck{
+            .card{
+              .card-content{
+                i{
+                  font-size: 18px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/********************************************  XSmall Size     *********************************************/
+@media all and (max-width:576px){
+  section{
+    .container{
+      .row{
+        .card-col{
+          .card-deck{
+            .card{
+              .card-content{
+                i{
+                  font-size: 23px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

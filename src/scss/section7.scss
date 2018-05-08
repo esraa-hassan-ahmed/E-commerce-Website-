@@ -1,0 +1,20 @@
+.sec-7{
+    background-image: url(../../dist/Pic/Home/section-bg-5.jpg);
+    .sec-BG{
+        width: 42%;
+        background-image: url(../../dist/Pic/Home/quote-icon.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        p:first-of-type{
+            font-size: 16px;
+            margin: 60px 0 46px;
+        }
+        p:last-of-type{
+            font-size: 14px;
+        }
+        h5{
+            font-size: 20px;
+            font-family: 'Raleway-Bold';
+        }
+    }
+}

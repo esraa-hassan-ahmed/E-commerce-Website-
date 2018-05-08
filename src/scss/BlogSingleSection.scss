@@ -1,0 +1,96 @@
+.blog-sec{
+    .single-card{
+        .card-body{
+            padding-bottom: 0;
+            h7{
+                display: block;
+                font-family: 'Raleway-Bold';
+                font-size: 30px;
+                margin-bottom: 5px;
+            }
+            span{
+                margin-right: 30px
+            }
+        }
+    }
+    .BG-div{
+        background-color: #f5f5f5;
+        padding: 30px;
+        .col-sm-1{
+          img{
+            margin-bottom: 5px;
+          }
+        }
+        .col-sm-12{
+            background-image: url(../../dist/Pic/BlogSingle/texticon2.png);
+            background-size:auto;
+            background-repeat: no-repeat;
+        }
+    }
+    .list-dif{
+        ul{
+            list-style: none;
+            padding-left: 15px;
+            li{
+                @extend .font-style;
+                font-size: 12px;
+                padding-bottom: 10px;
+            }
+            li:before{
+                 @extend .li-Bullet;
+            }
+        }
+    }
+    .div-margin{
+        .row{
+            .col-sm-12{
+                span:last-of-type{
+                    @extend .font-style;
+                    font-size: 12px;
+                }
+                p{
+                    margin: 6px 0 5px 0;
+                }
+                hr{
+                    margin: 0;
+                    width: 20px;
+                }
+            }
+        }
+        .dif-row{
+            padding-left: 20px;
+        }
+        .comment-img{
+          .col-sm-3{
+            img{
+              width:100%;
+              margin-bottom: 4px;
+            }
+          }
+        }
+        form{
+          input{
+            font-size: 12px;
+            @extend .font-style;
+          }
+          .form-row:last-of-type{
+            input{
+              height: 15%;
+              padding-bottom: 70px;
+            }
+          }
+          p{
+            a{
+                padding: 1% 6%;
+            }
+          }
+        }
+    }
+    .bold-span{
+        @extend .span-style;
+    }
+    p{
+        @extend .font-style;
+        font-size: 12px;
+    }
+}

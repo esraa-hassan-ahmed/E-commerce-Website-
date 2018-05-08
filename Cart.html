@@ -1,0 +1,378 @@
+<html>
+    <head>
+        <meta charset="utf.8">
+        <meta name= "description" content= "welcome to my website">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	      <meta name=viewport content="width=device-width, initial-scale=1">
+        <meta property="og:url" content="url to this page goes here">
+    		<meta property="og:type" content="website">
+    		<meta property="og:title" content="this website title">
+    		<meta property="og:descrition" content="this website description">
+    		<meta property="og:image" content="dist/Pic/logo-dark.png">
+        <title> Final_Project </title>
+        <link rel="stylesheet" href="dist/css/base.css">
+        <link rel="stylesheet" href="dist/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!--------------------------- Header ---------------------------------->
+        <header class="blog-header">
+            <div class="blog-content">
+                <nav class="navbar navbar-light">
+                    <div class="container-nav">
+                        <div class="row">
+                          <div class="col-6">
+                              <a class="navbar-brand" href="#">
+                                <img src="dist/Pic/logo-dark.png" alt="Logo">
+                              </a>
+                          </div>
+                          <div class="col-6 col-content text-right ">
+                              <div class="cart-sidemenu header-menu d-inline-block">
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fa fa-navicon"></i>
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="Home.html">Home</a>
+                                        <a class="dropdown-item" href="Blog.html">Blog</a>
+                                        <a class="dropdown-item" href="BlogSingle.html">Blog Single</a>
+                                        <a class="dropdown-item" href="Portfolio.html">Portfolio</a>
+                                        <a class="dropdown-item" href="PortfolioSingle.html">Portfolio Single</a>
+                                        <a class="dropdown-item" href="AboutUS.html">About Us</a>
+                                        <a class="dropdown-item" href="Contact.html">Contact</a>
+                                        <a class="dropdown-item" href="ShopGrid.html">Shop Grid</a>
+                                        <a class="dropdown-item" href="ShopList.html">Shop List</a>
+                                        <a class="dropdown-item" href="ShopItem.html">Shop Item</a>
+                                        <a class="dropdown-item" href="Cart.html">Cart</a>
+                                    </div>
+                                </div>
+                              </div>                              
+                              <i class="fa fa-user"></i>
+                              <i class="fa fa-heart"></i>
+                              <div class="nav-padding d-inline-block">
+                              <div class="dropdown">
+                                <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  <i class="fa fa-shopping-cart"></i>
+                                  <span class="cart-span"> 2 </span>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                    <div class="cart">
+                                        <div class="row row-border mb-4 pb-4">
+                                            <div class="col-3 col-sm-3">
+                                                <img src="dist/Pic/ShopGrid/widget-img-1.jpg">
+                                            </div>
+                                            <div class="col-7 col-sm-7 text-col">
+                                                <p> Geometric Wooden Vase </p>
+                                                <span> $ 50.00 </span>
+                                            </div>
+                                            <div class="col-2 col-sm-2 icon-col">
+                                                <i class="fa fa-trash"></i>
+                                            </div>
+                                        </div>
+                                        <div class="row row-border mb-1 pb-4">
+                                            <div class="col-3 col-sm-3">
+                                                <img src="dist/Pic/ShopGrid/Image1.jpg">
+                                            </div>
+                                            <div class="col-7 col-sm-7 text-col">
+                                                <p> Chrome Table Lamp </p>
+                                                <span> $ 630.00 </span>
+                                            </div>
+                                            <div class="col-2 col-sm-2 icon-col">
+                                                <i class="fa fa-trash"></i>
+                                            </div>
+                                        </div>
+                                        <div class="row row-border mb-2 pb-1">
+                                            <div class="col-4 col-sm-4">
+                                                <p class="light-par"> Save Cart</p>
+                                            </div>
+                                            <div class="col-8 col-sm-8 text-right">
+                                                <span class="pr-3"> Total</span>
+                                                <span>$ 680.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="row row-border">
+                                            <div class="col-6 col-sm-6">
+                                                <p class="lead text-center">
+                                                    <a class="btn btn-lg" href="#" role="button">View Cart</a>
+                                                </p>
+                                            </div>
+                                            <div class="col-6 col-sm-6">
+                                                <p class="lead text-center">
+                                                    <a class="btn btn-lg second-btn" href="#" role="button">checkout</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                     </div>
+                </nav>
+                <div class="blog-center Shop-BG-img">
+                    <div class="container">
+                          <h4> What I want to buy </h4>
+                          <h1>Shopping Cart</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--------------------------- Section ---------------------------------->
+        <section class="blog-sec">
+          <div class="container">
+            <div class="row row-BG">
+                <div class="col-4 col-sm-4 col-md-5 col-lg-4 col-items">
+                  <span>product</span>
+                </div>
+                <div class="col-3 col-sm-2 col-md-2 col-lg-1 col-items">
+                  <span>Qty</span>
+                </div>
+                <div class="col-none col-lg-2 col-items">
+                  <span>ID nomber</span>
+                </div>
+                <div class="col-3 col-sm-3 col-md-3 col-lg-2 col-items">
+                  <span>price</span>
+                </div>
+                <div class="col-lg-2 col-none">
+                  <span>subtotal</span>
+                </div>
+            </div>
+            <div class="row border-row mt-4 pb-4">
+                <div class="col-4 col-sm-4 col-md-5 col-lg-4 product-col">
+                  <div class="div-margin">
+                    <div class="row small-row card-row product-row">
+                        <div class="col-6 col-sm-6 col-md-4">
+                            <img src="dist/Pic/Cart/widget-img-1.jpg">
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-8 align-col">
+                          <div>
+                           <h5 class="cart-head">Geometric Wooden Vase</h5>
+                           <p>Suspendisse maximus eget neque eget accumsan. Sed eu erat at erat lobortis volutpat.</p>
+                         </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3 col-sm-2 col-md-2 col-lg-1 align-col">
+                  <input type="text" name="Qty" value="1">
+                </div>
+                <div class="col-lg-2 align-col col-none">
+                  <span class="light-span">GWV-1345568721</span>
+                </div>
+                <div class="col-3 col-sm-3 col-md-3 col-lg-2 align-col price-font">
+                  <span class="primary-span light-span">$ 50.00</span>
+                </div>
+                <div class="col-lg-2 align-col col-none">
+                  <span class="primary-span light-span"><b>$ 50.00</b></span>
+                </div>
+                <div class="col-2 col-sm-2 col-md-2 col-lg-1 align-col">
+                  <i class="fa fa-trash"></i>
+                </div>
+            </div>
+            <div class="row border-row mt-4 mb-4 pb-4">
+                <div class="col-4 col-sm-4 col-md-5 col-lg-4 product-col">
+                  <div class="div-margin">
+                    <div class="row small-row card-row product-row">
+                        <div class="col-6 col-sm-6 col-md-4">
+                            <img src="dist/Pic/Cart/img-1.jpg">
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-8 align-col">
+                          <div>
+                           <h5 class="cart-head">Chrome Table Lamp</h5>
+                           <p>Nulla non est scelerisque, ullamcorper eros at, imperdiet neque. Quisque a sapien at odio.</p>
+                         </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3 col-sm-2 col-md-2 col-lg-1 align-col">
+                  <input type="text" name="Qty" value="1">
+                </div>
+                <div class="col-lg-2 align-col col-none">
+                  <span class="light-span">CTL-5596771323</span>
+                </div>
+                <div class="col-3 col-sm-3 col-md-3 col-lg-2 align-col price-font">
+                  <span class="primary-span light-span">$ 630.00</span>
+                </div>
+                <div class="col-lg-2 align-col col-none">
+                  <span class="primary-span light-span col-none"><b>$ 630.00</b></span>
+                </div>
+                <div class="col-2 col-sm-2 col-md-2 col-lg-1 align-col">
+                  <i class="fa fa-trash"></i>
+                </div>
+            </div>
+            <div class="row cupon-row mb-4 mt-5">
+              <div class="col-12 col-sm-8 col-md-6 align-col">
+                <div class="input-group group-width">
+                  <div class="input-group-prepend buttons-row">
+                    <button class="btn btn-outline-secondary" type="button">Cupon Code</button>
+                  </div>
+                  <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+                </div>
+              </div>
+              <div class="col-12 col-sm-4 col-md-6 align-col">
+                <p class="lead">
+                    <a class="btn btn-lg" href="#" role="button">update cart</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="row total-row">
+              <div class="col-sm-6">
+                <div class="div-margin mt-5">
+                    <h2> Calculator Shipping </h2>
+                    <hr>
+                    <label class="bold-label pt-3">Country*</label>
+                    <select class="ch-type light-span pl-3" id="type" name="type">
+                      <option value="Type" disabled selected>Unated States (USA)</option>
+                      <option value="Lamp">Unated States (USA)</option>
+                      <option value="Pyramid">Unated States (USA)</option>
+                      <option value="Copper">Unated States (USA)</option>
+                    </select>
+                    <label class="bold-label pt-4">State / Province*</label>
+                    <input type="text" name="text" value="">
+                    <label class="bold-label pt-4">Postcode / Zip</label>
+                    <input type="text" name="text" value="">
+                  </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="div-margin mt-5">
+                    <h2> Cart Total </h2>
+                    <hr>
+                    <div class="order-row pt-3 pb-3 mb-4">
+                      <span class="bold-label">Subtotal:</span>
+                      <span class="light-span primary-span span-size float-right"><b>$ 680.00</b></span>
+                    </div>
+                    <div class="order-row pb-3 mb-4">
+                      <span class="bold-label">Shipping and Handling:</span>
+                      <span class="light-span float-right">Local Pickup</span>
+                    </div>
+                    <div class="mb-5">
+                      <span class="bold-label">Order Total:</span>
+                      <span class="light-span success-span span-size float-right"><b>$ 680.00</b></span>
+                    </div>
+                    <div class="buttons-row buttons-dif">
+                      <a class="btn btn-lg" href="#" role="button">proceed Chackout</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--------------------------- Footer ---------------------------------->
+        <footer>
+            <div class="footer-content">
+                <div class="container">
+                    <div class="row row-footer">
+                        <div class="col-sm-4">
+                            <h3> About Us </h3>
+                            <hr>
+                            <p class="par"> Morbi eu purus eget tellus fringilla malesuada eget nec nisi. Etiam nec dolor porttitor, cursus elit quis, tristique erat.   Sed rhoncus molestie elit sit amet viverra. </p>
+                            <div class="row row-about">
+                                <div class="col-sm-2 col-lg-1 col-1">
+                                    <i class="fa fa-map-marker"></i>
+                                </div>
+                                <div class="col-sm-12 col-lg-11 col-12">
+                                    <p> 90-120 Swanston St,Melbourne VIC 3000, Australia </p>
+                                </div>
+                            </div>
+                            <div class="row row-about">
+                                <div class="col-sm-2 col-lg-1 col-1">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <div class="col-sm-12 col-lg-11 col-12">
+                                    <p> +61 3 9559 9559 or +61 3 9669 9669 </p>
+                                </div>
+                            </div>
+                            <div class="row row-about">
+                                <div class="col-sm-2 col-lg-1 col-1">
+                                      <i class="fa fa-envelope"></i>
+                                </div>
+                                <div class="col-sm-12 col-lg-11 col-12">
+                                    <p> support@gtcreators.com </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <h3> Recent News </h3>
+                            <hr>
+                            <div class="row row-news">
+                                <div class="col-sm-4 col-lg-3 col-3">
+                                    <img src="dist/Pic/img-9.jpg">
+                                </div>
+                                <div class="col-sm-12 col-lg-9 col-12">
+                                    <div>
+                                        <span> 14/07/2016 </span>
+                                        <p> Ut molestie quam erat, non finibus erat </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-news">
+                                <div class="col-sm-4 col-lg-3 col-3">
+                                    <img src="dist/Pic/img-10.jpg">
+                                </div>
+                                <div class="col-sm-12 col-lg-9 col-12">
+                                    <div>
+                                        <span> 14/07/2016 </span>
+                                        <p>  Mauris vel est porta, viverra orci non </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-news">
+                                <div class="col-sm-4 col-lg-3 col-3">
+                                    <img src="dist/Pic/img-11.jpg">
+                                </div>
+                                <div class="col-sm-12 col-lg-9 col-12">
+                                    <div>
+                                        <span> 14/07/2016 </span>
+                                        <p> Duis nibh nisl, egestas non sapien volutpat </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <h3> Our Gallery </h3>
+                            <hr>
+                            <div class="row row-gallery">
+                              <div class="col-sm-3 col-lg-3 col-3">
+                                <img src="dist/Pic/img-1%20(1).jpg">
+                              </div>
+                              <div class="col-sm-3 col-lg-3 col-3">
+                                <img src="dist/Pic/img-2%20(1).jpg">
+                              </div>
+                              <div class="col-sm-3 col-lg-3 col-3">
+                                <img src="dist/Pic/img-3%20(1).jpg">
+                              </div>
+                              <div class="col-sm-3 col-lg-3 col-3">
+                                <img src="dist/Pic/img-4%20(1).jpg">
+                              </div>
+                            </div>
+                            <div class="row row-gallery">
+                              <div class="col-sm-3 col-lg-3 col-3">
+                                <img src="dist/Pic/img-5.jpg">
+                              </div>
+                              <div class="col-sm-3 col-lg-3 col-3">
+                                <img src="dist/Pic/img-6.jpg">
+                              </div>
+                              <div class="col-sm-3 col-lg-3 col-3">
+                                <img src="dist/Pic/img-7.jpg">
+                              </div>
+                              <div class="col-sm-3 col-lg-3 col-3">
+                                <img src="dist/Pic/img-8.jpg">
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="last-footer text-center">
+                <span>
+                    <i class="fa fa-copyright"></i>
+                    2016 GTC. All rights reserved.
+                </span>
+            </div>
+        </footer>
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>

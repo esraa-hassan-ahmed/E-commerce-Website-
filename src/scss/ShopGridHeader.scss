@@ -1,0 +1,154 @@
+.blog-header{
+    .Shop-BG-img{
+        background-image: url(../../dist/Pic/ShopGrid/section-bg-shop.jpg);
+        background-position:right;
+        background-size:auto;
+        width: 100%;
+    }
+    nav{
+        .col-content{
+            i:nth-child(2){
+                margin-right: 20px;
+                margin-left: 12px;
+            }
+            i:nth-child(3){
+                margin-right: 20px;
+            }            
+        }
+        .cart-sidemenu{
+            .dropdown{
+                .btn{
+                    padding-top: 0;
+                }
+            }
+        }
+        .nav-padding{                  
+            .dropdown{
+              top:-3px;
+              left: -20px;
+              display: inline-block;
+              .cart-span{
+                  width: 25px;
+                  height: 25px;
+                  background-color: $success;
+                  font-size: 12px;
+                  padding: 1px 5px;
+                  margin-bottom: 20px;
+              }
+              button{
+                box-shadow: none;
+                background-color: transparent;
+                border: transparent;
+              }
+              button:hover{
+                background-color: transparent;
+              }
+
+            .dropdown-menu{
+              min-width: 21rem;
+              left: auto;
+              right: 0;
+              top: 58px;
+              padding-bottom: 0;
+              padding-top: 0;
+              .cart{
+                  background-color: $secondary;
+                  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+                  padding: 35px 15px 12px 15px;
+                  p{
+                      font-family: 'Raleway-Bold';
+                      font-size: 14px;
+                      color: #979797;
+                      margin-bottom: 2px;
+                  }
+                  span{
+                      @extend .span-style;
+                      font-size: 14px;
+                  }
+                  img{
+                      width: 100%;
+                  }
+                  .row-border{
+                      border-bottom: 1px solid #e7e7e7;
+                      .text-col{
+                          padding-left: 0;
+                      }
+                      i{
+                          font-size: 18px;
+                          color: red;
+                          padding-top: 2px;
+                          color: #a5a5a5;
+                      }
+                      i:hover{
+                         color: $primary;
+                          cursor: pointer;
+                      }
+                      .icon-col{
+                          padding-left: 0;
+                      }
+                      .col-sm-4{
+                          .light-par{
+                              @extend .font-style;
+                              font-size: 14px;
+                          }
+                      }
+                      .second-btn{
+                          background-color: $success;
+                          border-radius: none;
+                      }
+                      p{
+                          a{
+                              padding: 10px 20%;
+                              font-size: 12px;
+                          }
+                          .btn{
+                              border-radius:0;
+                          }
+                      }
+                  }
+                  .row-border:last-of-type{
+                      border: none;
+                  }
+              }
+            }
+          }
+        }
+    }
+}
+/********************************************  XSmall Size     *********************************************/
+@media all and (max-width:576px){
+  .blog-header{
+    nav{  
+        .col-content{ 
+            i{
+                font-size: 18px;
+            }
+            i:nth-child(2){
+                margin-right: 10px;
+                margin-left: 2px;
+            }
+            i:nth-child(3){
+                margin-right: 10px;
+            } 
+            .cart-sidemenu{
+                .dropdown{
+                    .dropdown-menu{
+                        a{
+                            font-size: 14px;
+                        }
+                    }
+                }
+                
+            }
+            .nav-padding{
+                .dropdown{
+                    top:-1px;
+                    .dropdown-menu{
+                        min-width: 17rem;
+                    }
+                }
+            }
+        }       
+    }
+  }
+}

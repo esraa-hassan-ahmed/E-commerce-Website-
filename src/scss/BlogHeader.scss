@@ -1,0 +1,29 @@
+.blog-header{
+    .blog-content{
+        height:400px;
+        width: 100%;
+        .container-nav{
+            .row{
+                height: 60px;
+            }
+        }
+    }
+    .blog-center{
+        height: calc(400px - 60px);
+        display: flex;
+        align-items: center;
+        background-size: cover;
+        .container{
+            h4{
+                font-size: 18px;
+            }
+            h1{
+                font-size: 54px;
+            }
+        }
+    }
+    .blog-BG-img{
+      background-image: url(../../dist/Pic/Blog/section-bg-11.jpg);
+      background-position: bottom;
+    }
+}
